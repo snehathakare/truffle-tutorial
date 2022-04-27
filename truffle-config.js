@@ -1,5 +1,5 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const SEED_PHRASE = 'maze mail then warfare regret quiz rhythm goat peasant venue ball congress'
+const SEED_PHRASE = ''
 /**
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,
@@ -74,7 +74,7 @@ module.exports = {
     // production: true    // Treats this network as if it was a public net. (default: false)
     // },
     rinkeby: {
-      provider: () => new HDWalletProvider(SEED_PHRASE, 'https://rinkeby.infura.io/v3/5ed47293eb724768adbffceb02afbfa7'),
+      provider: () => new HDWalletProvider(SEED_PHRASE, ''),
       network_id: 4,       // Ropsten's id
       gas: 5500000,        // Ropsten has a lower block limit than mainnet
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
